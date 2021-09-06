@@ -1,4 +1,4 @@
-az pipelines update --id 12 --description "rename pipeline" --new-name updatedname.pipelines-java --output table
+az pipelines show --id 12 --output table
 
 ID    Name                        Status    Default Queue
 ----  --------------------------  --------  ------------------
