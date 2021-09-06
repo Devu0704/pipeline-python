@@ -1,0 +1,5 @@
+az pipelines run --name myGithubname.pipelines-java --branch pipeline --output table
+
+Run ID    Number      Status      Result    Pipeline ID    Pipeline Name                Source Branch    Queued Time               Reason
+--------  ----------  ----------  --------  -------------  ---------------------------  ---------------  --------------------------  --------
+123       20200123.2  notStarted            12             myGithubname.pipelines-java  pipeline           2020-01-23 11:55:56.633450  manual
