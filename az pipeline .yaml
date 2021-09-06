@@ -1,0 +1,5 @@
+az pipelines update --id 12 --description "rename pipeline" --new-name updatedname.pipelines-java --output table
+
+ID    Name                        Status    Default Queue
+----  --------------------------  --------  ------------------
+12    updatedname.pipelines-java  enabled   Hosted Ubuntu 1604
